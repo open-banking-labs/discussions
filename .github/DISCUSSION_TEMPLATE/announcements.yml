@@ -1,0 +1,9 @@
+title: "[Announcement] "
+labels: ["announcement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This category is for official Open Banking Labs announcements, releases, and community updates.
+
+        For general questions or discussions, please use **General** or **Q&A** instead.
