@@ -1,0 +1,11 @@
+title: "[Poll] "
+labels: ["poll"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category to create a quick poll for the Open Banking Labs community.
+
+        GitHub Discussions supports native polls. Add your poll options when creating the discussion.
+
+        For open-ended discussion, please use **General**.
