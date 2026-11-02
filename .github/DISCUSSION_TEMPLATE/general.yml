@@ -1,0 +1,25 @@
+title: "[General] "
+labels: ["general"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start a general discussion about Open Banking Labs or DCC that does not fit another category.
+
+        If you are asking for help, consider **Q&A** instead. If you have a feature idea, consider **Ideas**.
+
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: What would you like to discuss?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context (optional)
+      description: Any background, links, or details that would help others understand your topic.
+    validations:
+      required: false
