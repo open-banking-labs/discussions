@@ -1,0 +1,43 @@
+title: "[Q&A] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a usage question about Open Banking Labs or DCC.
+
+        Please search existing discussions first. For reproducible bugs, use the DCC repository Issues instead.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What are you trying to do, and what is blocking you?
+    validations:
+      required: true
+
+  - type: input
+    id: dcc-version
+    attributes:
+      label: DCC version / commit
+      description: If your question is DCC-related, which version or commit are you using?
+      placeholder: "e.g. v0.5.1, or a commit SHA"
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Environment and context
+      description: Include relevant environment details, configuration, or steps you have already tried.
+      placeholder: "Example: I am running DCC locally with... I have already tried..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected outcome
+      description: What did you expect to happen?
+    validations:
+      required: false
